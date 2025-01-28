@@ -1,0 +1,17 @@
+package bd.com.joruri.gemini_chat.service;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
+@Service
+public class GeminiAnswerService {
+
+  @Value("${gemini.api.url}")
+  private String geminiApiUrl;
+  @Value("${gemini.api.key}")
+  private String geminiApiKey;
+
+  public String getAnswer(String question) {
+    return "";
+  }
+}
