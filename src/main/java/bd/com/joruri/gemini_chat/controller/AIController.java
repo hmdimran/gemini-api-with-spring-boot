@@ -1,9 +1,9 @@
 package bd.com.joruri.gemini_chat.controller;
 
 import bd.com.joruri.gemini_chat.service.GeminiAnswerService;
+import java.time.LocalDateTime;
 import java.util.Map;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
